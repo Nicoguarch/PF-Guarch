@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../estilos.css">
+    <meta name="description" content="camperas,nba">
+    <meta name="keywords" content="camperas,Universitaria,nba,celtics,phoenix">
+    <link rel="stylesheet" href="../scss/estilos.css">
     <title>AllCLOTHES</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -36,58 +38,63 @@
                         <li class="nav-item">
                             <a class="nav-link" href="./remeras.html">Musculosas</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">contacto</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
     <main>
-        <div>
-            <h2>Gorras</h2>
-        </div>
-        <div class="row row-cols-1 row-cols-md-3 g-1">
-            <div class="col">
-                <div class="card h-100">
-                    <img src="../imagenes/C.celtics.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">Gorra hawks</h5>
-                        <p class="card-text ">Gorra Hawks Roja</p>
-                        <a href="#" class="btn btn-primary">Ver Más</a>
+        <section class="container-fluid">
+            <div>
+                <h1>Camperas</h1>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-1">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../imagenes/C.celtics.png" class="card-img-top" alt="campece">
+                        <div class="card-body">
+                            <h2 class="card-title text-center">Gorra hawks</h2>
+                            <p class="card-text ">Gorra Hawks Roja</p>
+                            <a href="#" class="btn btn-primary">Ver Más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../imagenes/C.jazz.png" class="card-img-top" alt="campejaz">
+                        <div class="card-body">
+                            <h2 class="card-title text-center">Gorra Golden State Warriors</h2>
+                            <p class="card-text  ">orra Golden Station Warriors Blanca.</p>
+                            <a href="#" class="btn btn-primary">Ver Más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../imagenes/C.knicksblue.png" class="card-img-top" alt="campekn">
+                        <div class="card-body">
+                            <h2 class="card-title text-center">Gorra Warriors</h2>
+                            <p class="card-text ">Gorra Golden Station Warriors</p>
+                            <a href="#" class="btn btn-primary">Ver Más</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="../imagenes/C.jazz.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">Gorra Golden State Warriors</h5>
-                        <p class="card-text  ">orra Golden Station Warriors Blanca.</p>
-                        <a href="#" class="btn btn-primary">Ver Más</a>
+            <div class="row row-cols-1 row-cols-md-3 g-1">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../imagenes/C.lakersvioleta.png" class="card-img-top" alt="campela">
+                        <div class="card-body">
+                            <h2 class="card-title text-center">Gorra hawks</h2>
+                            <p class="card-text ">Gorra Hawks Roja</p>
+                            <a href="#" class="btn btn-primary">Ver Más</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="../imagenes/C.knicksblue.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">Gorra Warriors</h5>
-                        <p class="card-text ">Gorra Golden Station Warriors</p>
-                        <a href="#" class="btn btn-primary">Ver Más</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row row-cols-1 row-cols-md-3 g-1">
-            <div class="col">
-                <div class="card h-100">
-                    <img src="../imagenes/C.lakersvioleta.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">Gorra hawks</h5>
-                        <p class="card-text ">Gorra Hawks Roja</p>
-                        <a href="#" class="btn btn-primary">Ver Más</a>
-                    </div>
-                </div>
-            </div>
+        </section>
     </main>
     <footer class="mt-5 py-5">
         <div class="row container mx-auto pt-5">
@@ -105,15 +112,15 @@
             <div class="footer-one col-lg-3 col-md-6 col-12">
                 <h5 class="pb-2">Contacto</h5>
                 <div>
-                    <h6 class="text-uppercase">Dirección</h6>
+                    <h3 class="text-uppercase">Dirección</h3>
                     <p class="text-left py-1">CABA - Palermo</p>
                 </div>
                 <div>
-                    <h6 class="text-uppercase">Teléfono</h6>
+                    <h3 class="text-uppercase">Teléfono</h3>
                     <p class="text-left py-1">1125072791</p>
                 </div>
                 <div>
-                    <h6 class="text-uppercase">Email</h6>
+                    <h3 class="text-uppercase">Email</h3>
                     <p class="text-left py-1">guarch96@gmail.com</p>
                 </div>
             </div>
