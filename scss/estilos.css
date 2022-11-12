@@ -42,9 +42,9 @@ main {
   height: 50px;
   margin-right: 5px;
 }
-.logo .logo-img .hover {
+.logo .logo-img:hover {
   opacity: 85%;
-  transform: translate -5px;
+  transform: translate(-5px);
 }
 
 nav a {
@@ -74,9 +74,12 @@ p {
   text-align: center;
 }
 
-h4 {
-  font-style: italic;
-  color: #D8D8D8;
+.botonburguer {
+  background-color: #F15BA1;
+}
+
+.boton {
+  background-color: #F15BA1;
 }
 
 li {
@@ -94,7 +97,7 @@ footer {
   font-size: 1.2rem;
 }
 
-footer h4 {
+footer h3 {
   color: #F15BA1;
   font-weight: 700;
   font-size: 1.2rem;
