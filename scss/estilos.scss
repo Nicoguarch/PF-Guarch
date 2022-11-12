@@ -1,0 +1,230 @@
+$colorletras: #000000;
+$colorredes: #D8D8D8;
+$colorredes1: #F15BA1;
+$navcolor: #b552c9;
+$smoke: #999;
+$head: #ffc0cb;
+$footer: #222222;
+
+@mixin logo-img {
+    max-width: 100%;
+
+    height: 50px;
+
+    margin-right: 5px;
+}
+
+@mixin header {
+    display: flex;
+    min-height: 70px;
+    background-color: $head;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin a {
+    text-decoration: none;
+    color: $colorletras
+}
+
+@mixin main {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+@mixin body {
+    font-family: sans-serif;
+}
+
+@mixin h2 {
+    color: $colorletras;
+    text-align: center;
+}
+
+@mixin h3 {
+    font-style: italic;
+    text-align: center;
+    color: $colorredes;
+    font-size: 1.2rem
+}
+
+@mixin p {
+    color: $colorletras;
+    font-style: oblique;
+    text-align: center;
+}
+@mixin li {
+    font-style: italic;
+    color: $colorletras;
+}
+@mixin h1 {
+    text-align: center;
+    display: flex;
+}
+@mixin footer {
+    background-color: $footer;
+    font-size: 1.2rem
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    @include body;
+}
+
+a {
+    @include a;
+}
+
+header {
+    @include header;
+}
+
+.titulo {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+main {
+    @include main;
+}
+
+.logo {
+
+    display: flex;
+
+    align-items: center;
+
+
+
+    .logo-img {
+        @include logo-img;
+
+        &:hover {
+            opacity: 85%;
+
+            transform: translate(-5px);
+        }
+
+    }
+
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+    background-color: $head;
+
+    a:hover {
+        color: $colorletras;
+    }
+}
+
+h2 {
+    @include h2;
+}
+
+h3 {
+    @include h3;
+}
+
+p {
+    @include p;
+}
+
+.botonburguer {
+    background-color: $colorredes1;
+}
+
+.boton {
+    background-color: $colorredes1;
+}
+
+li {
+@include li;
+}
+
+h1 {
+@include h1;
+}
+
+footer {
+@include footer;
+}
+
+footer h3 {
+    color: $colorredes1;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+footer li {
+    padding-bottom: 4px;
+
+    a {
+        font-size: 0.8rem;
+        color: $smoke;
+    }
+
+    a:hover {
+        color: $colorredes1;
+    }
+}
+
+
+footer p {
+    color: $colorredes;
+    font-size: 0.8rem;
+}
+
+footer .copyright a {
+    color: $colorletras;
+    width: 38px;
+    height: 38px;
+    background: $colorredes;
+    display: inline-block;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    margin: 0 5px;
+}
+
+a:hover {
+    color: $colorredes1;
+    background-color: $head;
+
+    a:link {
+        text-decoration: none;
+    }
+}
+
+
+
+@media screen and (max-width: 730px) {
+    header {
+        flex-wrap: wrap;
+    }
+
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .grid2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .h1 {
+        flex-wrap: wrap;
+    }
+}

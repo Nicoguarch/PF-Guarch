@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+header {
+  display: flex;
+  min-height: 70px;
+  background-color: #ffc0cb;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titulo {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+main {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo .logo-img {
+  max-width: 100%;
+  height: 50px;
+  margin-right: 5px;
+}
+.logo .logo-img:hover {
+  opacity: 85%;
+  transform: translate(-5px);
+}
+
+nav a {
+  font-weight: 600;
+  padding-right: 10px;
+  background-color: #ffc0cb;
+}
+nav a a:hover {
+  color: #000000;
+}
+
+h2 {
+  color: #000000;
+  text-align: center;
+}
+
+h3 {
+  font-style: italic;
+  text-align: center;
+  color: #D8D8D8;
+  font-size: 1.2rem;
+}
+
+p {
+  color: #000000;
+  font-style: oblique;
+  text-align: center;
+}
+
+.botonburguer {
+  background-color: #F15BA1;
+}
+
+.boton {
+  background-color: #F15BA1;
+}
+
+li {
+  font-style: italic;
+  color: #000000;
+}
+
+h1 {
+  text-align: center;
+  display: flex;
+}
+
+footer {
+  background-color: #222222;
+  font-size: 1.2rem;
+}
+
+footer h3 {
+  color: #F15BA1;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+footer li {
+  padding-bottom: 4px;
+}
+footer li a {
+  font-size: 0.8rem;
+  color: #999;
+}
+footer li a:hover {
+  color: #F15BA1;
+}
+
+footer p {
+  color: #D8D8D8;
+  font-size: 0.8rem;
+}
+
+footer .copyright a {
+  color: #000000;
+  width: 38px;
+  height: 38px;
+  background: #D8D8D8;
+  display: inline-block;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+  transition: 0.3s ease;
+  margin: 0 5px;
+}
+
+a:hover {
+  color: #F15BA1;
+  background-color: #ffc0cb;
+}
+a:hover a:link {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 730px) {
+  header {
+    flex-wrap: wrap;
+  }
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .grid2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .h1 {
+    flex-wrap: wrap;
+  }
+}/*# sourceMappingURL=estilos.css.map */
