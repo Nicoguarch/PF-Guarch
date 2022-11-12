@@ -54,14 +54,17 @@ $footer: #222222;
     font-style: oblique;
     text-align: center;
 }
+
 @mixin li {
     font-style: italic;
     color: $colorletras;
 }
+
 @mixin h1 {
     text-align: center;
     display: flex;
 }
+
 @mixin footer {
     background-color: $footer;
     font-size: 1.2rem
@@ -144,18 +147,28 @@ p {
 
 .boton {
     background-color: $colorredes1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.mapa {
+    display: flex;
 }
 
 li {
-@include li;
+    @include li;
 }
 
 h1 {
-@include h1;
+    @include h1;
 }
 
 footer {
-@include footer;
+    @include footer;
 }
 
 footer h3 {

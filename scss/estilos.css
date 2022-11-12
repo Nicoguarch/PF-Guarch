@@ -80,6 +80,16 @@ p {
 
 .boton {
   background-color: #F15BA1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.mapa {
+  display: flex;
 }
 
 li {
