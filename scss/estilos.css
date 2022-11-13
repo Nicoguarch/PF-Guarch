@@ -21,12 +21,6 @@ header {
   align-items: center;
 }
 
-.titulo {
-  max-width: 500px;
-  width: 100%;
-  margin: 0 auto;
-}
-
 main {
   width: 100%;
   max-width: 1500px;
@@ -56,9 +50,14 @@ nav a a:hover {
   color: #000000;
 }
 
-h2 {
-  color: #000000;
+h1 {
   text-align: center;
+  justify-content: space-around;
+}
+
+h2 {
+  text-align: center;
+  justify-content: space-around;
 }
 
 h3 {
@@ -75,11 +74,11 @@ p {
 }
 
 .botonburguer {
-  background-color: #F15BA1;
+  background-color: #ffc0cb;
 }
 
 .boton {
-  background-color: #F15BA1;
+  background-color: #ffc0cb;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -90,6 +89,7 @@ p {
 
 .mapa {
   display: flex;
+  justify-content: center;
 }
 
 li {
@@ -99,12 +99,16 @@ li {
 
 h1 {
   text-align: center;
-  display: flex;
+  justify-content: space-around;
 }
 
 footer {
   background-color: #222222;
   font-size: 1.2rem;
+}
+
+.destacados {
+  text-align: center;
 }
 
 footer h3 {
@@ -122,6 +126,12 @@ footer li a {
 }
 footer li a:hover {
   color: #F15BA1;
+}
+
+.videito {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
 }
 
 footer p {
@@ -164,7 +174,7 @@ a:hover a:link {
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  .h1 {
-    flex-wrap: wrap;
+  .destacados {
+    text-align: center;
   }
 }/*# sourceMappingURL=estilos.css.map */

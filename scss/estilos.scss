@@ -38,8 +38,8 @@ $footer: #222222;
 }
 
 @mixin h2 {
-    color: $colorletras;
     text-align: center;
+    justify-content: space-around;
 }
 
 @mixin h3 {
@@ -62,7 +62,7 @@ $footer: #222222;
 
 @mixin h1 {
     text-align: center;
-    display: flex;
+    justify-content: space-around;
 }
 
 @mixin footer {
@@ -86,12 +86,6 @@ a {
 
 header {
     @include header;
-}
-
-.titulo {
-    max-width: 500px;
-    width: 100%;
-    margin: 0 auto;
 }
 
 main {
@@ -128,6 +122,9 @@ nav a {
         color: $colorletras;
     }
 }
+h1{
+    @include h1;
+}
 
 h2 {
     @include h2;
@@ -142,11 +139,11 @@ p {
 }
 
 .botonburguer {
-    background-color: $colorredes1;
+    background-color: $head;
 }
 
 .boton {
-    background-color: $colorredes1;
+    background-color: $head;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -157,6 +154,7 @@ p {
 
 .mapa {
     display: flex;
+    justify-content: center;
 }
 
 li {
@@ -169,6 +167,9 @@ h1 {
 
 footer {
     @include footer;
+}
+.destacados{
+    text-align: center;
 }
 
 footer h3 {
@@ -189,7 +190,11 @@ footer li {
         color: $colorredes1;
     }
 }
-
+.videito{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
 
 footer p {
     color: $colorredes;
@@ -236,8 +241,7 @@ a:hover {
         flex-wrap: wrap;
         justify-content: space-between;
     }
-
-    .h1 {
-        flex-wrap: wrap;
+    .destacados{
+        text-align: center;
     }
 }
