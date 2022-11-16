@@ -53,11 +53,13 @@ nav a a:hover {
 h1 {
   text-align: center;
   justify-content: space-around;
+  padding: 25px;
 }
 
 h2 {
   text-align: center;
   justify-content: space-around;
+  padding: 35px;
 }
 
 h3 {
@@ -85,11 +87,21 @@ p {
   margin: 20px;
   padding: 5px;
   border-radius: 20px;
+  position: relative;
 }
 
 .mapa {
   display: flex;
   justify-content: center;
+  padding: 35px;
+}
+
+.videito {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  padding: 30px;
 }
 
 li {
@@ -100,6 +112,7 @@ li {
 h1 {
   text-align: center;
   justify-content: space-around;
+  padding: 25px;
 }
 
 footer {
@@ -126,12 +139,6 @@ footer li a {
 }
 footer li a:hover {
   color: #F15BA1;
-}
-
-.videito {
-  display: flex;
-  justify-content: center;
-  cursor: pointer;
 }
 
 footer p {
